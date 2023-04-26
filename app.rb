@@ -2,7 +2,7 @@
 num = []
 
 count = 1
-#Usa times para solicitar os 3 números
+#Usa o times para solicitar os 3 números
 1..3.times do
     print "Digite o #{count}º valor: "
     num.push gets.chomp.to_i
